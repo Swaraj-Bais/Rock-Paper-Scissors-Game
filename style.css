@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    width:100vw;
+    padding: 10px;
+    text-align: center;
+    background-color: #081b31;
+    color:white;
+}
+.choices{
+    width:15vw;
+    height:15vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choices:hover{
+    opacity: 0.8;
+    border: 10px solid black;
+    cursor: pointer;
+}
+img{
+    border-radius: 50%;
+    width:14.8vw;
+    height:14.8vw;
+    object-fit: cover;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap:2.5rem;
+}
+.score{
+    margin-top: 15px;
+    height: 10vw;
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+.player p{
+    font-size: 2.5vw;
+    margin-bottom: 15px;
+}
+#player-score,#comp-score{
+    font-size:3.5vw;
+}
+.computer p{
+    margin-bottom: 15px;
+    font-size: 2.5vw;
+}
+.computer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.result{
+    width: 50vw;
+    height: 5.8vw;
+    margin-top:2rem;
+    font-size: 3.5vw;
+    background-color: #081b31;
+    color:white;
+    border-radius: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
